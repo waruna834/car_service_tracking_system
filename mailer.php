@@ -21,8 +21,8 @@ function createMailer(): PHPMailer
 
         // Server settings
         $mail->Host = 'smtp.gmail.com';
-        $mail->Username = 'weemandra8@gmail.com'; // Replace with your Gmail
-        $mail->Password = 'keys ueva hxnu ikdk'; // Use App Password
+        $mail->Username = 'example@mail.com'; // Replace with your Gmail
+        $mail->Password = 'PASSWORD'; // Use App Password
         $mail->Port = 587; // TLS
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         
