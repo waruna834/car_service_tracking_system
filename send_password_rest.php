@@ -62,8 +62,8 @@ try {
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com"; // Update with your SMTP server
     $mail->SMTPAuth = true;
-    $mail->Username = "weemandra8@gmail.com"; // Update with your email
-    $mail->Password = "keys ueva hxnu ikdk"; // Update with your password
+    $mail->Username = "example@mail.com"; // Update with your email
+    $mail->Password = "PASSWORD"; // Update with your password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
