@@ -82,7 +82,7 @@ and view their previously searched problems, all while utilizing Bootstrap for s
                         }
                     } else {
                         // Google Custom Search API Integration
-                        $apiKey = 'AIzaSyDWbZsatebWRij5g2-ADDOOude5J5KlZZk';
+                        $apiKey = 'ADD_API_KEY';
                         $searchEngineId = '70c6b90195876406d';
                         $searchUrl = "https://www.googleapis.com/customsearch/v1?key=$apiKey&cx=$searchEngineId&q=" . urlencode($problem);
 
