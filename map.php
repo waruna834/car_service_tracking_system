@@ -164,7 +164,7 @@ and display them as markers on the map with options to book services, all styled
             }
         </script>
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA7OOuRgd5bQ2Zx7TZFTBBbosv5OOVGeo&libraries=places&callback=initMap" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=<ADD_API_KEY>&libraries=places&callback=initMap" async defer></script>
         <!-- Footer -->
         <footer class="text-center py-3">
             &copy; 2024 Car Service Tracking System. All Rights Reserved.
